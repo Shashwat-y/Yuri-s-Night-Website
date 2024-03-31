@@ -1,0 +1,85 @@
+@import "../../app.scss";
+
+
+.event-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width:100%;
+    min-height: 100vh;
+    margin-top:20%;
+    margin-bottom: 20%;
+    
+}
+
+.event-card{
+    height: 38vh;
+    width:55vw;
+    background-color: grey;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    background: linear-gradient(to right,rgb(62, 154, 252),navy);
+    
+}
+
+.event-card-container{
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    
+}
+
+.event-img{
+    width:30%;
+    height: 100%;
+    border-radius:20px;
+    background-color: white;
+}
+
+.event-info{
+    width: 70%;
+    height:100%;
+    display:flex;
+    gap:20px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.event-btn{
+    padding: 10px;
+    height: 45px;
+    width:150px;
+    border-radius: 5px;
+    border:none;
+    font-weight: 600;
+    
+}
+
+.btn{
+    display: flex;
+    gap:40px;
+}
+
+.event-title{
+   color: white;
+   text-align: center;
+   font-size: 35px;
+   margin-top: 6px;
+}
+
+.info{
+    text-align: justify;
+    padding-left: 20px;
+    padding-right:20px;
+    font-size: 14px;
+    padding-bottom: 10px;
+}
+
