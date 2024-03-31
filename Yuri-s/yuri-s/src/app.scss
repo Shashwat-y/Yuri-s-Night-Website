@@ -27,6 +27,13 @@ section {
   overflow: hidden;
 }
 
+#team{
+  min-height: 200vh;
+  width: 100vw;
+  scroll-snap-align: center;
+  overflow: hidden;
+}
+
 @mixin mobile {
   @media (max-width: 738px) {
     @content;

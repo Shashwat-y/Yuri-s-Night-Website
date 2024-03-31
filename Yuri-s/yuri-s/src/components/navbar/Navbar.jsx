@@ -1,4 +1,4 @@
-import { Nav } from "react-bootstrap";
+// import { Nav } from "react-bootstrap";
 import Sidebar from "../sidebar/Sidebar";
 import "./navbar.scss";
 import { motion } from "framer-motion";
@@ -69,7 +69,7 @@ const Navbar = () => {
                 <a href="#guest" className={activeSection === 'guest' ? 'active' : ''}>Guest</a>
                 <a href="#gallery" className={activeSection === 'gallery' ? 'active' : ''}>Gallery</a>
                 <a href="#team" className={activeSection === 'team' ? 'active' : ''}>Team</a>
-                <a href="#sponsor" className={activeSection === 'sponsor' ? 'active' : ''}>Sponsor</a>
+                <a href="#sponsor" className={activeSection === 'sponsor' ? 'active' : ''}>Sponsors & Collaborators</a>
                 <a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a>
            
              </div>

@@ -9,7 +9,9 @@ import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
 import Services from "./components/services/Services";
-import Event from "./components/event/event";
+import Event from "./components/event/Event";
+import Team from "./components/team/Team"
+import SponsorsCollaborators from "./components/sponsorsCollaborators/SponsorsCollaborators"
 
 const Home = () => {
   return (
@@ -61,11 +63,11 @@ const Home = () => {
       </section>
       <section id="team">
          <Navbar />
-         <Hero />
+         <Team />
       </section>
       <section id="sponsor">
          <Navbar />
-         <Hero />
+         <SponsorsCollaborators />
       </section>
       <section id="contact">
           <Contact />
