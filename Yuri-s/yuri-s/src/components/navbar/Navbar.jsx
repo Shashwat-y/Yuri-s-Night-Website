@@ -44,7 +44,9 @@ const Navbar = () => {
   return (
     <div className="navbar">
       {/* Sidebar */}
-      {/* <Sidebar/> */}
+      <div className="sidebar">
+      <Sidebar/>
+      </div>
       <div className="wrapper">
         {/* <motion.span
           initial={{ opacity: 0, scale: 0.5 }}

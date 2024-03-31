@@ -11,7 +11,7 @@ const Contact = () => {
 
 
                <div className="brand">
-               <img src={logo}>
+               <img src={logo} className="yuri-logo">
                </img>
                 <div className="brand-title">
                 <p className="name">YURI'S</p>
@@ -25,8 +25,23 @@ const Contact = () => {
                  <p>Varanasi, India</p>
                  <p> PIN: 221005</p>
 
-                 <h3>Mail us : astroclub@itbhu.ac.in</h3>
-                 <p>Call us : +91111111111</p>
+                 <h3>Mail us : astronomyclub.iitbhu@gmail.com</h3>
+                 {/* <p>Call us : +91111111111</p> */}
+
+                 <div className="social">
+          <a href="#">
+            <img src="/facebook.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/instagram.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/youtube.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/dribbble.png" alt="" />
+          </a>
+        </div>
                
         </div>
         <div className="illus">

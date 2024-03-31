@@ -36,8 +36,8 @@ const landing = () => {
        <video autoPlay muted loop >
           <source src={bgVideo}  /> 
        </video>
-         <img src={isro} className='isro'></img>
-         <img src={iit} className='iit'></img>
+         {/* <img src={isro} className='isro'></img> */}
+         {/* <img src={iit} className='iit'></img> */}
          <img src={astro} className='astro'></img>
          <img src={sntc} className='sntc'></img>
            <div className='main-head'>
