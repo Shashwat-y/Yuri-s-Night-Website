@@ -8,7 +8,7 @@ import './Team.css';
 
 function Team() {
   return (
-    <div className="container text-center py-2">
+    <div className="containerTeam text-center py-2">
       <h2 className="text-white">Secretary of Astronomy Club</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4 py-2 cont">
         {secyData.map((member, index) => (
