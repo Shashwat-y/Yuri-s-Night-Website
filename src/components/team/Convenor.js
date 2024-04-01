@@ -4,7 +4,7 @@ const convenorData = [
       role: 'Convenor', 
       imgSrc: '../../../../../images/we - Abhay Chauhan.jpg', 
       linkedIN: 'https://www.linkedin.com/in/abhay-chauhan-209678247', 
-      mail: '', // You can fill this if available
+      mail: '', 
       bio: '...'
     },
     { 
