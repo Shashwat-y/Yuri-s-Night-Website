@@ -1,6 +1,6 @@
 @import "../../app.scss";
 
-.navbar {
+.n-navbar {
   height: 100px;
   
   position: fixed;
@@ -8,7 +8,7 @@
   width: 100%;
   z-index: 10;
 
-  .wrapper {
+  .n-wrapper {
     max-width: 1366px;
     margin: auto;
     display: flex;
@@ -34,23 +34,23 @@
       }
     }
 
-    .social {
-      display: flex;
-      justify-content: end;
-      align-items: end;
-      gap: 20px;
+    // .social {
+    //   display: flex;
+    //   justify-content: end;
+    //   align-items: end;
+    //   gap: 20px;
       
 
-      img {
-        width: 18px;
-        height: 18px;
-      }
-    }
+    //   img {
+    //     width: 18px;
+    //     height: 18px;
+    //   }
+    // }
   }
 }
 
 
-.nav-items {
+.n-nav-items {
   display: flex;
   flex-direction: row;
   gap:40px;
@@ -63,6 +63,50 @@
 }
 
 
-.active{
+.n-active{
    color: skyblue;
+}
+
+.n-sidebar{
+  display: none;
+}
+
+@media only screen and (max-width: 600px) {
+  .n-social {
+    display: none;
+    
+   
+    
+
+    img {
+      width: 0px;
+      height: 0px;
+    }
+  }
+
+  .n-nav-items {
+    display: none;
+    flex-direction: row;
+    gap:40px;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    font-weight: 600;
+    height: 100%;
+    
+  }
+  .n-wrapper {
+    max-width: 1366px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    gap:15%;
+    height: 100%;
+    position: sticky;
+    top:0;}
+
+    .n-sidebar{
+      display: flex;
+    }
 }

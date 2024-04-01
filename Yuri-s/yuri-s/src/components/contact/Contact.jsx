@@ -5,17 +5,17 @@ import logo from './logo.png'
 
 const Contact = () => {
   return (
-   <div className="main">
-        <div className="container">
-        <div className="contact-card">
+   <div className="n-main">
+        <div className="n-container">
+        <div className="n-contact-card">
 
 
-               <div className="brand">
-               <img src={logo}>
+               <div className="n-brand">
+               <img src={logo} className="n-yuri-logo">
                </img>
-                <div className="brand-title">
-                <p className="name">YURI'S</p>
-                <p className="name">NIGHT</p>
+                <div className="n-brand-title">
+                <p className="n-name">YURI'S</p>
+                <p className="n-name">NIGHT</p>
                 </div>
                </div>
                <h2>Contact Us</h2>
@@ -25,18 +25,33 @@ const Contact = () => {
                  <p>Varanasi, India</p>
                  <p> PIN: 221005</p>
 
-                 <h3>Mail us : astroclub@itbhu.ac.in</h3>
-                 <p>Call us : +91111111111</p>
+                 <h3>Mail us : astronomyclub.iitbhu@gmail.com</h3>
+                 {/* <p>Call us : +91111111111</p> */}
+
+                 <div className="n-social">
+          <a href="#">
+            <img src="/facebook.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/instagram.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/youtube.png" alt="" />
+          </a>
+          <a href="#">
+            <img src="/dribbble.png" alt="" />
+          </a>
+        </div>
                
         </div>
-        <div className="illus">
-             <img src={Illus} className="im">
+        <div className="n-illus">
+             <img src={Illus} className="n-im">
                           
              </img>
         </div>
     </div> 
-    <div className="copyright">
-         <p className="copy">© 2024 Copyright: ASTRONOMY CLUB IITBHU </p>
+    <div className="n-copyright">
+         <p className="n-copy">© 2024 Copyright: ASTRONOMY CLUB IITBHU </p>
          
     </div>
    </div>

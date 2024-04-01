@@ -1,5 +1,7 @@
 import "./hero.scss";
 import { motion } from "framer-motion";
+import logo from './logo.png'
+import hero from './hero2.png'
 
 const textVariants = {
   initial: {
@@ -39,40 +41,28 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div className="wrapper">
-        <motion.div
-          className="textContainer"
-          variants={textVariants}
-          initial="initial"
-          animate="animate"
-        >
-          <motion.h2 variants={textVariants}>IIT BHU</motion.h2>
-          <motion.h1 variants={textVariants}>
-            Yuri's Night
-          </motion.h1>
-          <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>
-               Explore the events
-            </motion.button>
-            <motion.button variants={textVariants}>Contact Us</motion.button>
-          </motion.div>
-          <motion.img
-            variants={textVariants}
-            animate="scrollButton"
-            src="/scroll.png"
-            alt=""
-          />
-        </motion.div>
+    <div className="n-hero">
+      <div className="n-wrapper">
+        
+          {/* <motion.h2 variants={textVariants}>IIT BHU</motion.h2> */}
+          <div className="n-hero-text">
+            <img src={logo} className="n-yuri-logo">
+            
+            </img>
+
+            
+          
+            <h1 className="n-yuri-title">YURI'S NIGHT</h1>
+            <p className="n-title-tag">A nocturnal celebration of darkness</p>
+
+            <img className="n-hero2" src={hero} /> 
+          
+          </div>
+         
+          
+        
       </div>
-      <motion.div
-        className="slidingTextContainer"
-        variants={sliderVariants}
-        initial="initial"
-        animate="animate"
-      >
-        Astro Club
-      </motion.div>
+     
       
     </div>
   );

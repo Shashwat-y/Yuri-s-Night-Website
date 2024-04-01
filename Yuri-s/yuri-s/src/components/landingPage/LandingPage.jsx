@@ -31,31 +31,31 @@ const landing = () => {
 
   return (
     <div>
-       <div className="container-l">
+       <div className="n-container-l">
        
        <video autoPlay muted loop >
           <source src={bgVideo}  /> 
        </video>
-         <img src={isro} className='isro'></img>
-         <img src={iit} className='iit'></img>
-         <img src={astro} className='astro'></img>
-         <img src={sntc} className='sntc'></img>
-           <div className='main-head'>
-               <img src={logo} className='yuri-logo'></img>
-               <div className='title-main'>
-               <p className="title">YURI'S NIGHT </p>
+         {/* <img src={isro} className='isro'></img> */}
+         {/* <img src={iit} className='iit'></img> */}
+         <img src={astro} className='n-astro'></img>
+         <img src={sntc} className='n-sntc'></img>
+           <div className='n-main-head'>
+               <img src={logo} className='n-yuri-logo'></img>
+               <div className='n-title-main'>
+               <p className="n-title">YURI'S NIGHT </p>
                
                {/* <p className="title">NIGHT</p> */}
                </div>
-               <p className='tag'>A norturnal celebration of darkness...</p>
+               <p className='n-tag'>A norturnal celebration of darkness...</p>
            </div>
            
-           <div className="timer-container">
+           <div className="n-timer-container">
                <Countdown date={Date.now() + 1000000000}  />
-               <p className="details"><span>days :</span><span>hours :</span><span>min :</span><span>sec</span></p>
+               <p className="n-details"><span>days :</span><span>hours :</span><span>min :</span><span>sec</span></p>
            </div>
-           <div className='btn-container'>
-           <button className='cta'><Link to='/home' >explore</Link></button>
+           <div className='n-btn-container'>
+           <button className='n-cta'><Link to='/home' >explore</Link></button>
            </div>
        </div>
        
