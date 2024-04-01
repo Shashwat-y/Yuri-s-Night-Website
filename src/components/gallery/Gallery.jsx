@@ -1,6 +1,6 @@
 import React from 'react';
 import { Carousel } from 'react-responsive-carousel';
-import './gallery.scss';
+import './Gallery.scss';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 
 function Gallery() {
