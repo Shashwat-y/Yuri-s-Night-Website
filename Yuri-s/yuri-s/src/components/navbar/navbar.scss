@@ -1,6 +1,6 @@
 @import "../../app.scss";
 
-.navbar {
+.n-navbar {
   height: 100px;
   
   position: fixed;
@@ -8,7 +8,7 @@
   width: 100%;
   z-index: 10;
 
-  .wrapper {
+  .n-wrapper {
     max-width: 1366px;
     margin: auto;
     display: flex;
@@ -50,7 +50,7 @@
 }
 
 
-.nav-items {
+.n-nav-items {
   display: flex;
   flex-direction: row;
   gap:40px;
@@ -63,16 +63,16 @@
 }
 
 
-.active{
+.n-active{
    color: skyblue;
 }
 
-.sidebar{
+.n-sidebar{
   display: none;
 }
 
 @media only screen and (max-width: 600px) {
-  .social {
+  .n-social {
     display: none;
     
    
@@ -84,7 +84,7 @@
     }
   }
 
-  .nav-items {
+  .n-nav-items {
     display: none;
     flex-direction: row;
     gap:40px;
@@ -95,7 +95,7 @@
     height: 100%;
     
   }
-  .wrapper {
+  .n-wrapper {
     max-width: 1366px;
     margin: auto;
     display: flex;
@@ -106,7 +106,7 @@
     position: sticky;
     top:0;}
 
-    .sidebar{
+    .n-sidebar{
       display: flex;
     }
 }

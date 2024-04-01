@@ -1,11 +1,11 @@
 @import "../../app.scss";
 
-.hero {
+.n-hero {
   height: calc(100vh);
   
   
 
-  .wrapper {
+  .n-wrapper {
     max-width: 1366px;
     height: 100%;
     margin: auto;
@@ -20,7 +20,7 @@
 
 
 
-.hero{
+.n-hero{
   background-image: url("space.jpg");
   background-repeat: no-repeat;
   background-size: 100vw 100vh;
@@ -34,7 +34,7 @@
 //   font-size: 1000px;
 // }
 
-.hero-text{
+.n-hero-text{
   display: flex;
   align-items: start;
   // justify-content: center;
@@ -42,21 +42,21 @@
   height: 100%;
   margin-top: 120px;
  
-  .yuri-title{
+  .n-yuri-title{
     font-size: 70px;
   }
-  .yuri-logo{
+  .n-yuri-logo{
     height: 150px;
     margin-left: 120px;
     
     // width:300px
   }
-  .title-tag{
+  .n-title-tag{
     font-size: 25px;
   }
 }
 
-.hero2{
+.n-hero2{
   display: none;
 }
 
@@ -64,13 +64,13 @@
 @media only screen and (max-width: 600px) {
      
    
-  .hero{
+  .n-hero{
     background-image: url("");
     background-repeat: no-repeat;
     background-size: 100vw 100vh;
   }
 
-  .hero-text{
+  .n-hero-text{
     display: flex;
     align-items: center;
     // justify-content: center;
@@ -79,26 +79,26 @@
     margin-top: 100px;
     width:100%;
    
-    .yuri-title{
+    .n-yuri-title{
       font-size: 40px;
     }
-    .yuri-logo{
+    .n-yuri-logo{
       height: 120px;
       margin-left: 0px;
       
       // width:300px
     }
-    .title-tag{
+    .n-title-tag{
       font-size: 15px;
     }
   }
 
-  .hero {
+  .n-hero {
     height: calc(100vh);
     
     
   
-    .wrapper {
+    .n-wrapper {
       // max-width: 1366px;
       height: 100%;
       margin: 0px;
@@ -108,7 +108,7 @@
   
       }
     }
-    .hero2{
+    .n-hero2{
       display: flex;
       height:400px
     }

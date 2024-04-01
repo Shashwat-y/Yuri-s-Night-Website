@@ -42,12 +42,12 @@ const Navbar = () => {
 
 
   return (
-    <div className="navbar">
+    <div className="n-navbar">
       {/* Sidebar */}
-      <div className="sidebar">
+      <div className="n-sidebar">
       <Sidebar/>
       </div>
-      <div className="wrapper">
+      <div className="n-wrapper">
         {/* <motion.span
           initial={{ opacity: 0, scale: 0.5 }}
           animate={{ opacity: 1, scale: 1 }}
@@ -64,15 +64,15 @@ const Navbar = () => {
             <NavLink to="/Team">Team</NavLink>
             <NavLink to="/Sponsors">Sponsors</NavLink>
             <NavLink to="/Contact">Contact Us</NavLink> */}
-             <div className="nav-items">
+             <div className="n-nav-items">
             
-                <a href="#about" className={activeSection === 'about' ? 'active' : ''}>About</a>
-                <a href="#event" className={activeSection === 'event' ? 'active' : ''}>Event</a>
-                <a href="#guest" className={activeSection === 'guest' ? 'active' : ''}>Guest</a>
-                <a href="#gallery" className={activeSection === 'gallery' ? 'active' : ''}>Gallery</a>
-                <a href="#team" className={activeSection === 'team' ? 'active' : ''}>Team</a>
-                <a href="#sponsor" className={activeSection === 'sponsor' ? 'active' : ''}>Sponsor</a>
-                <a href="#contact" className={activeSection === 'contact' ? 'active' : ''}>Contact</a>
+                <a href="#about" className={activeSection === 'about' ? 'n-active' : ''}>About</a>
+                <a href="#event" className={activeSection === 'event' ? 'n-active' : ''}>Event</a>
+                <a href="#guest" className={activeSection === 'guest' ? 'n-active' : ''}>Guest</a>
+                <a href="#gallery" className={activeSection === 'gallery' ? 'n-active' : ''}>Gallery</a>
+                <a href="#team" className={activeSection === 'team' ? 'n-active' : ''}>Team</a>
+                <a href="#sponsor" className={activeSection === 'sponsor' ? 'n-active' : ''}>Sponsor</a>
+                <a href="#contact" className={activeSection === 'contact' ? 'n-active' : ''}>Contact</a>
            
              </div>
 
@@ -82,7 +82,7 @@ const Navbar = () => {
 
 
 
-        <div className="social">
+        <div className="n-social">
           <a href="#">
             <img src="/facebook.png" alt="" />
           </a>

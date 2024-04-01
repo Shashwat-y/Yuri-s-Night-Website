@@ -41,21 +41,21 @@ const sliderVariants = {
 
 const Hero = () => {
   return (
-    <div className="hero">
-      <div className="wrapper">
+    <div className="n-hero">
+      <div className="n-wrapper">
         
           {/* <motion.h2 variants={textVariants}>IIT BHU</motion.h2> */}
-          <div className="hero-text">
-            <img src={logo} className="yuri-logo">
+          <div className="n-hero-text">
+            <img src={logo} className="n-yuri-logo">
             
             </img>
 
             
           
-            <h1 className="yuri-title">YURI'S NIGHT</h1>
-            <p className="title-tag">A nocturnal celebration of darkness</p>
+            <h1 className="n-yuri-title">YURI'S NIGHT</h1>
+            <p className="n-title-tag">A nocturnal celebration of darkness</p>
 
-            <img className="hero2" src={hero} /> 
+            <img className="n-hero2" src={hero} /> 
           
           </div>
          

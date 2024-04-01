@@ -1,7 +1,7 @@
 @import "../../app.scss";
 
 
-.container-l {
+.n-container-l {
     height: 100vh;
     width: 100%;
     position: relative;
@@ -9,7 +9,7 @@
     flex-direction: column;
 }
 
-.title{
+.n-title{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -21,7 +21,7 @@
     padding:0px
 }
 
-.timer-container {
+.n-timer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -29,7 +29,7 @@
     font-size: 80px;
 }
 
-.details{
+.n-details{
     font-size: 30px;
     display: flex;
     flex-direction: row;
@@ -37,7 +37,7 @@
 }
 
 
-.cta {
+.n-cta {
     display: flex;
     height: 60px;
     width: 180px;
@@ -52,7 +52,7 @@
 }
 
 
-.btn-container{
+.n-btn-container{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -73,7 +73,7 @@ video {
     z-index: -1;
   }
 
-  .main-head {
+  .n-main-head {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -81,11 +81,11 @@ video {
     height: 60vh;
   }
 
-  .yuri-logo {
+  .n-yuri-logo {
     height: 150px;
   }
 
-  .title-main{
+  .n-title-main{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -95,11 +95,11 @@ video {
     
   }
 
-  .tag {
+  .n-tag {
     font-size: 30px;
   }
 
-  .astro {
+  .n-astro {
     position:absolute;
     left:20px;
     top:20px;
@@ -107,7 +107,7 @@ video {
     height:60px
   }
 
-  .isro {
+  .n-isro {
     position:absolute;
     right:20px;
     top:20px;
@@ -115,7 +115,7 @@ video {
     height:100px
   }
 
-  .iit {
+  .n-iit {
     position:absolute;
     right:150px;
     top:20px;
@@ -125,7 +125,7 @@ video {
 
   
 
-  .sntc {
+  .n-sntc {
     position:absolute;
     right:20px;
     top:20px;
@@ -136,7 +136,7 @@ video {
   
 
   @media only screen and (max-width: 600px) {
-    .sntc {
+    .n-sntc {
       position:absolute;
       right:20px;
       top:20px;
@@ -144,7 +144,7 @@ video {
       height:40px
     }
 
-    .astro {
+    .n-astro {
       position:absolute;
       left:20px;
       top:20px;
@@ -152,7 +152,7 @@ video {
       height:40px
     }
 
-    .main-head {
+    .n-main-head {
       display: flex;
       flex-direction: column;
       align-items: center;
@@ -161,17 +161,17 @@ video {
       margin-top: 50px;
     }
 
-    .yuri-logo {
+    .n-yuri-logo {
       height: 120px;
     }
-    .tag {
+    .n-tag {
       display: flex;
       font-size: 15px;
       justify-content: center;
       align-items: center;
     }
 
-    .cta {
+    .n-cta {
       display: flex;
       height: 50px;
       width: 150px;
@@ -184,7 +184,7 @@ video {
       margin: 30px;
       background-image: linear-gradient(white, grey);
   }
-  .timer-container {
+  .n-timer-container {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -192,14 +192,14 @@ video {
     font-size: 50px;
 }
 
-.details{
+.n-details{
     font-size: 20px;
     display: flex;
     flex-direction: row;
     gap: 10px;
 }
    
-.title{
+.n-title{
   display: flex;
   flex-direction: column;
   align-items: center;
