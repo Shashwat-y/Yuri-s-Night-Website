@@ -1,5 +1,3 @@
-
-
 import Test from "./Test";
 import "./app.scss";
 import Contact from "./components/contact/Contact";
@@ -12,7 +10,7 @@ import Services from "./components/services/Services";
 import Event from "./components/event/Event";
 import Team from "./components/team/Team"
 import SponsorsCollaborators from "./components/sponsorsCollaborators/SponsorsCollaborators"
-
+import Gallery from "./components/gallery/Gallery";
 const Home = () => {
   return (
    
@@ -59,7 +57,7 @@ const Home = () => {
       </section>
       <section id="gallery">
          <Navbar />
-         <Hero />
+         <Gallery/>
       </section>
       <section id="team">
          <Navbar />
