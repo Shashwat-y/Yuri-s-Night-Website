@@ -3,13 +3,18 @@ import styled, { keyframes, css } from "styled-components";
 
 export const AppContainer = styled.div`
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
   color: #000000;
-  margin: 50px;
+  margin-top: 1000px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
+
+  @media only screen and (max-width: 600px) {
+    margin-top: 3000px;
+  }
+  
 `;
 
 export const Wrapper = styled.div`
@@ -85,6 +90,7 @@ export const ImageGroup = styled.div`
   place-items: center;
   width: clamp(100rem, 1rem + 600vmin, 300rem);
   padding: calc(clamp(40rem, 1rem + 110vmin, 300rem) / 10);
+  
 `;
 
 export const Image = styled.img`

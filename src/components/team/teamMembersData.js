@@ -49,6 +49,15 @@ const teamMembers = [
     insta: 'shlok_saxena1075', 
     mail: '', // You can fill this if available
     bio: 'Working for a better future.'
+  },
+  { 
+    name: 'Nikhil Raj', 
+    role: 'Tech Head', 
+    imgSrc: '../../../../images/nikhil_raj.jpg', 
+    linkedIN: 'https://www.linkedin.com/in/nikhil-raj-860722267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app',
+    insta: 'https://www.linkedin.com/in/nikhil-raj-860722267?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app', 
+    mail: 'nikhil.raj.min22@itbhu.ac.in', // You can fill this if available
+    bio: ''
   }
 ];
 

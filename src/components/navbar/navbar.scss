@@ -76,7 +76,7 @@
   .n-social {
     display: none;
     
-   
+      
     
 
     img {
@@ -110,4 +110,15 @@
     .n-sidebar{
       display: flex;
     }
+
+    .n-navbar {
+      height: 100px;
+      background-color: transparent; 
+      opacity: 20%;
+      position: fixed;
+      top:0;
+      width: 100%;
+      z-index: 10;}
+
+    
 }
