@@ -14,16 +14,16 @@ const Contact = () => {
                <img src={logo} className="n-yuri-logo">
                </img>
                 <div className="n-brand-title">
-                <p className="n-name">YURI'S</p>
-                <p className="n-name">NIGHT</p>
+                <h4 className="n-name">YURI'S</h4>
+                <h4 className="n-name">NIGHT</h4>
                 </div>
                </div>
                <h2>Contact Us</h2>
                
-                 <p>Indian Institute of Technology</p>
-                 <p>(Banaras Hindu University)</p>
-                 <p>Varanasi, India</p>
-                 <p> PIN: 221005</p>
+                 <h4>Indian Institute of Technology</h4>
+                 <h4>(Banaras Hindu University)</h4>
+                 <h4>Varanasi, India</h4>
+                 <h4> PIN: 221005</h4>
 
                  <h3>Mail us : astronomyclub.iitbhu@gmail.com</h3>
                  {/* <p>Call us : +91111111111</p> */}
@@ -51,7 +51,7 @@ const Contact = () => {
         </div>
     </div> 
     <div className="n-copyright">
-         <p className="n-copy">© 2024 Copyright: ASTRONOMY CLUB IITBHU </p>
+         <h4 className="n-copy">© 2024 Copyright: ASTRONOMY CLUB IITBHU </h4>
          
     </div>
    </div>
