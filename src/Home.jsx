@@ -6,7 +6,7 @@ import Hero from "./components/hero/Hero";
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
-import Services from "./components/services/Services";
+import Guest from "./components/guest/Guest";
 import Event from "./components/event/Event";
 import Team from "./components/team/Team"
 import SponsorsCollaborators from "./components/sponsorsCollaborators/SponsorsCollaborators"
@@ -52,8 +52,8 @@ const Home = () => {
            <Event />
       </section>
       <section id="guest">
-         <Navbar />
-         <Hero />
+      <Navbar />
+      <Guest/>
       </section>
       <section id="gallery">
          <Navbar />

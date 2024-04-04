@@ -17,9 +17,9 @@ function Gallery() {
         
       <div className='imageContainer'>
          <div class="text">
-        <h1>MEMORIES</h1>
+        <h1>GALLERY</h1>
         </div>
-        <Carousel showArrows={true}>
+        <Carousel showArrows={true} autoPlay={true} interval={2000}>
             {slides}
         </Carousel>
         </div>
