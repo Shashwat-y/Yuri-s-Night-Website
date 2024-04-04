@@ -43,7 +43,7 @@ export const Note = styled.div`
 
 export const Marquee = styled.div`
   display: flex;
-  width: 1200px;
+  width: 220vw;
   overflow: hidden;
   user-select: none;
 
@@ -88,18 +88,20 @@ export const MarqueeGroup2 = styled.div`
 export const ImageGroup = styled.div`
   display: grid;
   place-items: center;
-  width: clamp(100rem, 1rem + 600vmin, 300rem);
-  padding: calc(clamp(40rem, 1rem + 110vmin, 300rem) / 10);
+  width: clamp(100rem, 1rem + 600vw, 300rem);
+  padding: calc(clamp(20rem, 1rem + 55vmin, 150rem) / 10);
   
 `;
 
 export const Image = styled.img`
   object-fit: contain;
-  width: 400%;
-  height: 100%;
+  width: 50%;
   /* border: 1px solid black; */
   border-radius: 0.5rem;
   aspect-ratio: 16/9;
-  padding: 5px 20px;
+  padding: 5px 2vw;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  @media only screen and (max-width: 600px) {
+    width: 80%;
+  }
 `;
