@@ -18,3 +18,27 @@
     margin-bottom: 10%;
     margin-top: 5vw;
 }
+
+@media only screen and (max-width: 600px) {
+    .carousel .slide img {
+        margin-top: 100px;
+        // width: auto;
+        // height: 70vh;
+    }
+    .imageContainer{
+    // position: absolute;
+    // left: 50%;
+    // transform: translate(-50%, -0%);
+    padding: 0;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box;
+    flex-direction: column;
+    justify-content:center;
+    // width: 70%;
+    margin-top:100 px;
+    margin-bottom: 50 px;
+    // min-height: 100vh;
+    }
+
+}

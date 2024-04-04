@@ -34,6 +34,14 @@ section {
   overflow: hidden;
 }
 
+@media only screen and (max-width: 600px) {
+
+  #guest{
+    min-height: 200vh;
+    margin-bottom: 20px;
+  }
+
+}
 @mixin mobile {
   @media (max-width: 738px) {
     @content;
