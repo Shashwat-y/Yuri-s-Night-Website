@@ -1,14 +1,5 @@
 const secyData = [
     { 
-      name: 'Manash Kumar', 
-      role: 'Secretary', 
-      imgSrc: '../../../../images/Manash_Kumar - Mr. Manash Kumar 4 Year B.Tech. Electrical Engineering.jpg', 
-      linkedIN: 'https://www.linkedin.com/in/manash-kumar-b73921222/', 
-      insta: 'https://www.instagram.com/_manashkumar_', 
-      mail: 'mailto:manashkumar1216@gmail.com', 
-      bio: 'My life revolves around galaxies. HueHueHue by day, astronomy enthusiast by night. Bribe me with pizza for cosmic knowledge!'
-    },
-    { 
       name: 'Yuvraj Singh', 
       role: 'Joint Secretary', 
       imgSrc: '../../../../images/IMG_20230731_121301_895 - Mr. Yuvraj Singh 4 Year B.Tech. Chemical Engineering.jpg', 
@@ -16,6 +7,15 @@ const secyData = [
       insta: 'https://www.instagram.com/yuvraj.singh.99', 
       mail: 'mailto:yuvraj.singh.cd.che21@itbhu.ac.in', 
       bio: '...'
+    },
+    { 
+      name: 'Manash Kumar', 
+      role: 'Secretary', 
+      imgSrc: '../../../../images/Manash_Kumar - Mr. Manash Kumar 4 Year B.Tech. Electrical Engineering.jpg', 
+      linkedIN: 'https://www.linkedin.com/in/manash-kumar-b73921222/', 
+      insta: 'https://www.instagram.com/_manashkumar_', 
+      mail: 'mailto:manashkumar1216@gmail.com', 
+      bio: 'My life revolves around galaxies. HueHueHue by day, astronomy enthusiast by night. Bribe me with pizza for cosmic knowledge!'
     },
     { 
       name: 'Prayash Das', 
