@@ -18,7 +18,7 @@ const secyData = [
       bio: 'My life revolves around galaxies. HueHueHue by day, astronomy enthusiast by night. Bribe me with pizza for cosmic knowledge!'
     },
     { 
-      name: 'Prayash Das', 
+      name: 'Prayash Dash', 
       role: 'Joint Secretary', 
       imgSrc: '../../../../images/WhatsApp Image 2024-03-28 at 21.59.35_7eb712b7 (1).jpg', 
       linkedIN: 'https://www.linkedin.com/in/prayashdash/', 
