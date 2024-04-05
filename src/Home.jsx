@@ -44,10 +44,10 @@ const Home = () => {
          <Navbar />
          <Hero />
       </section>
-      <section id="about">
+      {/* <section id="about">
          <Navbar />
          <Hero />
-      </section>
+      </section> */}
       <section id="event">
            <Event />
       </section>

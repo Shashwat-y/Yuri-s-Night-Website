@@ -12,7 +12,7 @@ html {
 
 body {
   background-color: #0c0c1d;
-  color: lightgray;
+  color: rgb(255, 255, 255);
 }
 
 a {
@@ -28,17 +28,24 @@ section {
 }
 
 #team{
-  min-height: 200vh;
+  min-height: 180vh;
   width: 100vw;
   scroll-snap-align: center;
   overflow: hidden;
 }
 
+#guest{
+  
+  margin-bottom: 100px;
+}
+
+
+
 @media only screen and (max-width: 600px) {
 
   #guest{
     min-height: 200vh;
-    margin-bottom: 20px;
+    margin-bottom: 500px;
   }
 
 }
