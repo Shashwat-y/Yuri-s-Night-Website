@@ -115,7 +115,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://unstop.com/p/planet-hunt-yuris-night-iit-bhu-946063'>
                                         Register
                                     </a>
                                 </button>
@@ -169,7 +169,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://unstop.com/p/planet-hunt-yuris-night-iit-bhu-946063'>
                                         Register
                                     </a>
                                 </button>

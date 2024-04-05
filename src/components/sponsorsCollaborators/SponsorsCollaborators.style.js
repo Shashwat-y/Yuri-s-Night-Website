@@ -5,7 +5,7 @@ export const AppContainer = styled.div`
   width: 100vw;
   min-height: 100vh;
   color: #000000;
-  margin-top: 1000px;
+  margin-top: 600px;
   position: relative;
   display: flex;
   align-items: center;
@@ -20,7 +20,7 @@ export const AppContainer = styled.div`
 export const Wrapper = styled.div`
   width: 100%;
   height: fit-content;
-
+  
   display: flex;
   align-items: center;
   justify-content: center;
@@ -28,6 +28,10 @@ export const Wrapper = styled.div`
 `;
 
 export const Text = styled.div`
+  display: flex;
+  width:100%;
+  justify-content: center;
+  align-items: center;
   font-size: 35px;
   font-weight: 900;
   margin-bottom: 10px;
