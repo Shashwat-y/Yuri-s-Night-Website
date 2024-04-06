@@ -27,6 +27,7 @@ section {
   overflow: hidden;
 }
 
+
 #team{
   min-height: 180vh;
   width: 100vw;
@@ -35,8 +36,9 @@ section {
 }
 
 #guest{
-  
+  min-height: 180vh;
   margin-bottom: 100px;
+  margin-bottom: 500px;
 }
 
 
@@ -44,8 +46,8 @@ section {
 @media only screen and (max-width: 600px) {
 
   #guest{
-    min-height: 200vh;
-    margin-bottom: 40px;
+    min-height: 270vh;
+    margin-bottom: 400px;
   }
 
 }
