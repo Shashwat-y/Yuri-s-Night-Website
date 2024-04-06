@@ -17,7 +17,7 @@ const Event = () => {
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.1,duration:0.1}}   className='n-event-container'>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div  className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                            <img src={astroquiz} className='event-info-img'></img>
@@ -44,7 +44,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div  className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={astrotalk} className='event-info-img'></img>
@@ -71,7 +71,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div   className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={astropixel} className='event-info-img'></img>
@@ -98,7 +98,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div   className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={cosmiccanva} className='event-info-img'></img>
@@ -125,7 +125,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div  className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={cosmicscript} className='event-info-img'></img>
@@ -152,7 +152,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div   className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={planethunt} className='event-info-img'></img>
@@ -179,7 +179,7 @@ const Event = () => {
                   </div>
           </motion.div>
 
-          <motion.div  whileInView={{scale:1.1}} className='n-event-card-container'>
+          <motion.div  className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
                        <img src={telescon} className='event-info-img'></img>
