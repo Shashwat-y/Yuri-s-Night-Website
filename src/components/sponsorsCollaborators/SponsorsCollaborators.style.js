@@ -25,20 +25,24 @@ export const Wrapper = styled.div`
   align-items: center;
   justify-content: center;
   flex-direction: column;
+  text-align: center;
 `;
 
 export const Text = styled.div`
   font-size: 35px;
   font-weight: 900;
-  margin-bottom: 10px;
+  margin: 10px;
   color: white;
 `;
 
 export const Note = styled.div`
   font-size: 25px;
   font-weight: 500;
+  margin-left:10px;
+  margin-right:10px;
   margin-bottom: 40px;
   color: #ffffffb7;
+  justify-content:center
 `;
 
 export const Marquee = styled.div`
