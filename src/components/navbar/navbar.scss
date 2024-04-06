@@ -72,6 +72,24 @@
   display: none;
 }
 
+.title-yuri-n{
+  display:none;
+  font-weight: 500;
+}
+
+.title-yuri-n{
+  display:none;
+  
+}
+
+.nav-flex{
+  display: none;
+}
+.nav-logo{
+   display: none;
+}
+
+
 @media only screen and (max-width: 600px) {
   .n-social {
     display: none;
@@ -83,6 +101,15 @@
       width: 0px;
       height: 0px;
     }
+  }
+
+  .nav-flex{
+    display: flex;
+  }
+  .nav-logo{
+    display: flex;
+     height:40px;
+     margin-bottom: 15px;
   }
 
   .n-nav-items {
@@ -109,16 +136,25 @@
 
     .n-sidebar{
       display: flex;
+      opacity: 100%;
+      background-color: white;
     }
 
     .n-navbar {
-      height: 100px;
-      background-color: transparent; 
-      opacity: 20%;
+      height: 90px;
+      background-color: black; 
+      opacity: 90%;
       position: fixed;
       top:0;
       width: 100%;
       z-index: 10;}
+
+      .title-yuri-n{
+           display:flex;
+           font-weight: 500;
+           margin-top: 7px;
+           padding-left: 10px;
+      }
 
     
 }
