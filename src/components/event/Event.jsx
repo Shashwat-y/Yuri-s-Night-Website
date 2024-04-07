@@ -4,7 +4,7 @@ import Portfolio from '../portfolio/Portfolio'
 import { motion } from "framer-motion";
 import astropixel from './astropixel.jpg'
 import astroquiz from './astroquiz.jpg'
-import astrotalk from './astrotalk.jpg'
+import astrotalk from './astroTalk.jpg'
 import cosmiccanva from './cosmiccanvas.jpg'
 import cosmicscript from './cosmicscript.jpg'
 import planethunt from './planethunt.jpg'
