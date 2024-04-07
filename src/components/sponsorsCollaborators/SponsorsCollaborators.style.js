@@ -110,6 +110,6 @@ export const Image = styled.img`
   padding: 5px 2vw;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
   @media only screen and (max-width: 600px) {
-    width: 80%;
+    width: 120%;
   }
 `;

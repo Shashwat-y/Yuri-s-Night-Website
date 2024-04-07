@@ -22,7 +22,7 @@ function Team() {
         ))}
       </div>
       <h2 className="text-white">Heads</h2>
-      <div className="row row-cols-1 row-cols-md-4 g-4 py-2 cont">
+      <div className="row row-cols-1 row-cols-md-3 g-4 py-2 cont">
         {teamMembers.map((member, index) => (
           <TeamMemberCard key={index} name={member.name} role={member.role} bio={member.bio} imgSrc={member.imgSrc} linkedIN={member.linkedIN} insta={member.insta} mail={member.mail}/>
         ))}

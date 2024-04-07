@@ -16,7 +16,7 @@ const Event = () => {
     
   return (
     <motion.div initial={{opacity:0}} animate={{opacity:1}} transition={{delay:0.1,duration:0.1}}   className='n-event-container'>
-
+            <h2>Events</h2>
           <motion.div  className='n-event-card-container'>
                   <div className='n-event-card'>
                        <div className='n-event-img'>
