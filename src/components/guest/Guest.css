@@ -91,14 +91,12 @@
     .contg{
     position: absolute;
     left: 50%;
-    transform: translate(-50%, -0%);
+    transform: translate(-50%, -10%);
     padding: 0;
     box-sizing: border-box;
     flex-direction: column;
     justify-content:center;
     width: 70%;
-    margin-top:100 px;
-    margin-bottom: 50 px;
     min-height: 100vh;
     }
 
