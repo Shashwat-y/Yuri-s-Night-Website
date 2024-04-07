@@ -23,7 +23,7 @@ a {
 section {
   min-height: 100vh;
   width: 100vw;
-  scroll-snap-align: center;
+  // scroll-snap-align: center;
   overflow: hidden;
 }
 
@@ -31,7 +31,7 @@ section {
 #team{
   min-height: 180vh;
   width: 100vw;
-  scroll-snap-align: center;
+  // scroll-snap-align: center;
   overflow: hidden;
 }
 
@@ -44,12 +44,15 @@ section {
 @media only screen and (max-width: 600px) {
 
   #guest{
-    min-height: 210vh;
-    
+    min-height: 150vh;
   }
   #gallery{
    min-height: 40vh;
   }
+  #Homepage{
+    min-height: 100vh;
+    margin-top: 15vh;
+}
 
 }
 @mixin mobile {

@@ -5,14 +5,14 @@ export const AppContainer = styled.div`
   width: 100vw;
   min-height: 100vh;
   color: #000000;
-  margin-top: 600px;
+  margin-top: 50px;
   position: relative;
   display: flex;
   align-items: center;
   justify-content: center;
 
   @media only screen and (max-width: 600px) {
-    margin-top: 2350px;
+    margin-top: 50px;
     min-height:80vh;
   }
   
