@@ -12,7 +12,8 @@ export const AppContainer = styled.div`
   justify-content: center;
 
   @media only screen and (max-width: 600px) {
-    margin-top: 3000px;
+    margin-top: 2350px;
+    min-height:80vh;
   }
   
 `;
