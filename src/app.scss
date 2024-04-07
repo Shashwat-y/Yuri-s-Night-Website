@@ -36,9 +36,7 @@ section {
 }
 
 #guest{
-  min-height: 180vh;
-  margin-bottom: 100px;
-  margin-bottom: 500px;
+  min-height: 120vh;
 }
 
 
@@ -47,8 +45,11 @@ section {
 @media only screen and (max-width: 600px) {
 
   #guest{
-    min-height: 270vh;
-    margin-bottom: 400px;
+    min-height: 210vh;
+    
+  }
+  #gallery{
+   min-height: 40vh;
   }
 
 }
