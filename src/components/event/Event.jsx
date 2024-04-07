@@ -3,11 +3,11 @@ import './event.scss'
 import Portfolio from '../portfolio/Portfolio'
 import { motion } from "framer-motion";
 import astropixel from './astropixel.jpg'
-import astroquiz from './astroquiz.png'
-import astrotalk from './astroTalk.jpg'
+import astroquiz from './astroquiz.jpg'
+import astrotalk from './astrotalk.jpg'
 import cosmiccanva from './cosmiccanvas.jpg'
-import cosmicscript from './cosmicscript.webp'
-import planethunt from './planethunt.jpeg'
+import cosmicscript from './cosmicscript.jpg'
+import planethunt from './planethunt.jpg'
 import telescon from './telescon.jpg'
 
 
