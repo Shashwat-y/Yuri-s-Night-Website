@@ -5,7 +5,7 @@ import GuestData from './GuestData';
 
 function Team() {
   return (
-    <div className="contg text-center py-2 ">
+    <div className="contg text-center">
       <h2 className="text-white ">Guest Lecture</h2>
       <div className="row row-cols-1 row-cols-md-3 g-4 py-2 cont">
         {GuestData.map((member, index) => (
