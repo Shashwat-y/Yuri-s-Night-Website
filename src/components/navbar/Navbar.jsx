@@ -22,7 +22,7 @@ const Navbar = () => {
           { threshold: 0 } // Trigger when 50% of the section is visible
       );
 
-      const sectionIds = [ 'event', 'guest', 'gallery','team','sponsor','contact']; // IDs of your sections
+      const sectionIds = [ 'about', 'event', 'guest', 'gallery','team','sponsor','contact']; // IDs of your sections
       sectionIds.forEach(id => {
           const section = document.getElementById(id);
           if (section) {
@@ -68,7 +68,7 @@ const Navbar = () => {
              <div className="n-nav-items">
             
 
-                {/* <a href="#about" className={activeSection === 'about' ? 'n-active' : ''}>About</a> */}
+                <a href="#about" className={activeSection === 'about' ? 'n-active' : ''}>About</a>
                 <a href="#event" className={activeSection === 'event' ? 'n-active' : ''}>Event</a>
                 <a href="#guest" className={activeSection === 'guest' ? 'n-active' : ''}>Guest</a>
                 <a href="#gallery" className={activeSection === 'gallery' ? 'n-active' : ''}>Gallery</a>

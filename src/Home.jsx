@@ -3,6 +3,7 @@ import "./app.scss";
 import Contact from "./components/contact/Contact";
 import Cursor from "./components/cursor/Cursor";
 import Hero from "./components/hero/Hero";
+import About from "./components/about/About"
 import Navbar from "./components/navbar/Navbar";
 import Parallax from "./components/parallax/Parallax";
 import Portfolio from "./components/portfolio/Portfolio";
@@ -12,43 +13,43 @@ import Team from "./components/team/Team"
 import SponsorsCollaborators from "./components/sponsorsCollaborators/SponsorsCollaborators"
 import Gallery from "./components/gallery/Gallery";
 const Home = () => {
-  return (
-   
-  <div>
-      <section id="Homepage">
-         <Navbar />
-         <Hero />
-      </section>
-      {/* <section id="about">
-         <Navbar />
-         <Hero />
-      </section> */}
-      <section id="event">
-           <Event />
-      </section>
-      <section id="guest">
-      <Navbar />
-      <Guest/>
-      </section>
-      <section id="gallery">
-         <Navbar />
-         <Gallery/>
-      </section>
-      <section id="team">
-         <Navbar />
-         <Team />
-      </section>
-      <section id="sponsor">
-         <Navbar />
-         <SponsorsCollaborators />
-      </section>
-      <section id="contact">
-          <Contact />
-      </section>
-     
-  </div>
-    
-  );
+   return (
+
+      <div>
+         <section id="Homepage">
+            <Navbar />
+            <Hero />
+         </section>
+         <section id="about">
+            <Navbar />
+            <About />
+         </section>
+         <section id="event">
+            <Event />
+         </section>
+         <section id="guest">
+            <Navbar />
+            <Guest />
+         </section>
+         <section id="gallery">
+            <Navbar />
+            <Gallery />
+         </section>
+         <section id="team">
+            <Navbar />
+            <Team />
+         </section>
+         <section id="sponsor">
+            <Navbar />
+            <SponsorsCollaborators />
+         </section>
+         <section id="contact">
+            <Contact />
+         </section>
+
+      </div>
+
+   );
 };
 
 export default Home;
