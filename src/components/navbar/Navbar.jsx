@@ -81,6 +81,7 @@ const Navbar = () => {
              <div className="nav-flex">
                  <img className="nav-logo" src={logo}></img>
                  <h1 className="title-yuri-n">Yuri's Night</h1>
+                 
              </div>
              
 
