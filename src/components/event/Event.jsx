@@ -83,7 +83,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/1cexZBDsABJDrJVZb3oo4fNjjteVBYnJ_/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
@@ -110,12 +110,12 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/1duUV7VYTgQIkqzBKFEEf0C3V4WMj94oq/view?usp=sharinghttps://drive.google.com/file/d/1duUV7VYTgQIkqzBKFEEf0C3V4WMj94oq/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a href='https://unstop.com/p/planet-hunt-yuris-night-iit-bhu-946063'>
+                                    <a href='https://unstop.com/competitions/cosmic-canvas-iit-bhu-944532'>
                                         Register
                                     </a>
                                 </button>
@@ -137,7 +137,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/1i6jNq0JmFXcr8LrslQNMzsfieh9WSSVX/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
@@ -169,7 +169,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a href='https://unstop.com/p/planet-hunt-yuris-night-iit-bhu-946063'>
+                                    <a href='https://unstop.com/hackathons/planet-hunt-iit-bhu-950022'>
                                         Register
                                     </a>
                                 </button>
@@ -191,7 +191,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/10Zy3J29iwujvNJRGRy2e0aK2j8uXFaG1/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
