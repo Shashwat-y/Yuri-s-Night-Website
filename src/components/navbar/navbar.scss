@@ -90,6 +90,19 @@
    display: none;
 }
 
+.n-social {
+  display: flex;
+  justify-content: end;
+  align-items: end;
+  gap: 20px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  img {
+    width: 25px;
+    height: 25px;
+  }
+}
+
 
 @media only screen and (max-width: 600px) {
   .n-social {
