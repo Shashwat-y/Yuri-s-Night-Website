@@ -51,7 +51,7 @@ const landing = () => {
            </div>
            
            <div className="n-timer-container">
-               <Countdown date={Date.now() + 1000000000}  />
+               <Countdown date={Date.now() + 260000000}  />
                <p className="n-details"><span>days :</span><span>hours :</span><span>min :</span><span>sec</span></p>
            </div>
            <div className='n-btn-container'>

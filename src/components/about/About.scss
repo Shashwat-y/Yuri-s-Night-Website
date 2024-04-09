@@ -1,0 +1,169 @@
+// About.scss
+*{
+  text-align: center;
+}
+.about-page {
+  padding: 0px 20px; /* Increased padding for top and bottom */
+  max-width: 1200px;
+  margin: 0 auto;
+  position: relative;
+}
+.hi{
+  font-size: 1.1rem;
+}
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  margin-bottom: 10%;
+}
+
+.left-content {
+  width: 50%;
+}
+
+.right-content {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+
+  img {
+    transform: scale(2);
+    padding-right: 10%;
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .about-content {
+    flex-direction: column;
+  }
+
+  .left-content,
+  .right-content {
+    width: 100%;
+  }
+
+  .right-content {
+    margin-top: 20px;
+
+    img {
+      transform: scale(0.5);
+      padding-right: 10%;
+      width: 100%;
+    }
+  }
+}
+
+h2 {
+  font-size: 2.5em; /* Increased font size for the heading */
+  margin-bottom: 20px; /* Added margin-bottom for spacing */
+  font-family: 'Roboto', sans-serif; /* Changed font family to Roboto */
+}
+
+p {
+  font-family: 'Roboto', sans-serif; /* Changed font family to Roboto */
+}
+
+/* Timeline styles */
+.timeline {
+  margin-top: 50px; /* Added margin-top for spacing */
+  position: relative;
+}
+
+.timeline h2 {
+  font-size: 1.8em;
+  margin-bottom: 20px;
+  position: absolute;
+  top: -40px; /* Adjusted top position to move the heading above the line */
+  left: 50%;
+  transform: translate(-50%, -90%);
+}
+
+.line {
+  width: 2px;
+  background-color: #fff;
+  height: 100%;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.events {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+  flex-wrap: wrap; /* Allow events to wrap to the next line */
+}
+
+.event {
+  width: calc(50% - 10px); /* Adjusted width to create proper spacing between events */
+  margin-bottom: 20px; /* Added margin-bottom to separate events */
+}
+
+.event-date {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.event-description {
+  font-size: 1.1em;
+  color: #555;
+}
+.additional-content {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.additional-content h2 {
+  font-size: 2.5em;
+}
+
+.additional-content p {
+  font-size: 1.2em;
+  line-height: 1.5;
+}
+
+/* Statistics styles */
+.statistics {
+  margin-top: 50px;
+}
+
+.statistics h2 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.stat-boxes {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.stat-box {
+  text-align: center;
+  width: 200px;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  background: linear-gradient(to right,rgb(62, 154, 252),navy);
+  color: #fff; /* White color for the text inside the circle */
+  border-radius: 50%; /* Make the circle shape */
+  font-size: 2em;
+  line-height: 100px; /* Center the text vertically inside the circle */
+  margin: 0 auto 15px; /* Center the circle horizontally and add margin below */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.stat-box p {
+  font-size: 1.2em;
+}
