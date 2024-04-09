@@ -29,7 +29,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/19RzvJy0OrFSEPkpkWW9VYrLCJ6WgSS9d/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
@@ -56,7 +56,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/1lQPpnoxgwrS-UtZgsrGjdmONTWAKC84s/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
@@ -142,7 +142,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://unstop.com/p/cosmic-script-yuris-night-iit-bhu-948491'>
                                         Register
                                     </a>
                                 </button>
@@ -164,7 +164,7 @@ const Event = () => {
                             </p>
                             <div className='n-btn'>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href='https://drive.google.com/file/d/1lQPpnoxgwrS-UtZgsrGjdmONTWAKC84s/view?usp=sharing'>
                                         Problem Statement
                                     </a>
                                 </button>
