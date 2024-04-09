@@ -28,7 +28,7 @@ const Contact = () => {
           <h3>Mail us : astronomyclub.iitbhu@gmail.com</h3>
           {/* <p>Call us : +91111111111</p> */}
 
-          <div className="n-social">
+          <div className="n-social-x">
             <a href="https://www.facebook.com/astro.iitbhu/">
               <img src="/facebook.png" alt="" />
             </a>
