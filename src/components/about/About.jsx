@@ -52,30 +52,88 @@ const about = () => {
 
           </div>
         </div>
-        <div className="timeline">
-          <h2>TIMELINE</h2>
-          <div className="line"></div>
-          <div className="events">
-            <div className="event">
-              <div className="event-date">April 12, 2024</div>
-              <div className="event-description">
+        {/* <div className="timeline">
+          <h2>TIMELINE</h2> */}
+       
+          
+          {/* <div classNameName="line"></div> */}
+          {/* <div classNameName="events"> */}
+            {/* <div classNameName="event">
+              <div classNameName="event-date">April 12, 2024</div>
+              <div classNameName="event-description">
                 Day 0
               </div>
-            </div>
-            <div className="event">
-              <div className="event-date">April 13, 2024</div>
-              <div className="event-description">
+            </div> */}
+            {/* <div classNameName="event">
+              <div classNameName="event-date">April 13, 2024</div>
+              <div classNameName="event-description">
                 Day 1
               </div>
-            </div>
-            <div className="event">
-              <div className="event-date">April 14, 2024</div>
-              <div className="event-description">
+            </div> */}
+            {/* <div classNameName="event">
+              <div classNameName="event-date">April 14, 2024</div>
+              <div classNameName="event-description">
                 Day 2
               </div>
-            </div>
+            </div> */}
+          {/* </div> */}
+       
+          <section className="whole">
+  <div className="container py-5">
+    <div className="main-timeline">
+      <div className="timeline left">
+        <div className="card">
+          <div className="card-body p-4">
+            <h3>12th April 2024</h3>
+            <p className="mb-0">Opening Ceremony
+                                            </p>
           </div>
         </div>
+      </div>
+      <div className="timeline right">
+        <div className="card">
+          <div className="card-body p-4">
+            <h3>13th April 2024</h3>
+            <p className="mb-0">Events/ Competitions
+</p>
+          </div>
+        </div>
+      </div>
+      <div className="timeline left">
+        <div className="card">
+          <div className="card-body p-4">
+            <h3>13th April 2024</h3>
+            <p className="mb-0">Observation Session
+</p>
+          </div>
+        </div>
+      </div>
+      <div className="timeline right">
+        <div className="card">
+          <div className="card-body p-4">
+            <h3>14th April 2024</h3>
+            <p className="mb-0">Events/ Competitions
+</p>
+          </div>
+        </div>
+      </div>
+      <div className="timeline left">
+        <div className="card">
+          <div className="card-body p-4">
+            <h3>14th April 2024</h3>
+            <p className="mb-0">Closing Ceremony</p>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+</section>
+      
+       
+      
+
+        
         <div className="additional-content">
           <h2>A Comprehensive Exploration</h2>
           <p>
