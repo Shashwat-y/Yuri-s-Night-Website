@@ -82,46 +82,46 @@ const about = () => {
   <div className="container py-5">
     <div className="main-timeline">
       <div className="timeline left">
-        <div className="card">
-          <div className="card-body p-4">
-            <h3>12th April 2024</h3>
-            <p className="mb-0">Opening Ceremony
+        <div className="">
+          <div className=" p-4">
+            <h3 className="date-n">12th April 2024</h3>
+            <p className="mb-0 date-n">Opening Ceremony
                                             </p>
           </div>
         </div>
       </div>
       <div className="timeline right">
-        <div className="card">
-          <div className="card-body p-4">
-            <h3>13th April 2024</h3>
-            <p className="mb-0">Events/ Competitions
+        <div className="">
+          <div className=" p-4">
+            <h3 className="date-n">13th April 2024</h3>
+            <p className="mb-0 date-n">Events/ Competitions
 </p>
           </div>
         </div>
       </div>
       <div className="timeline left">
-        <div className="card">
-          <div className="card-body p-4">
-            <h3>13th April 2024</h3>
-            <p className="mb-0">Observation Session
+        <div className="">
+          <div className=" p-4">
+            <h3 className="date-n">13th April 2024</h3>
+            <p className="mb-0 date-n">Observation Session
 </p>
           </div>
         </div>
       </div>
       <div className="timeline right">
-        <div className="card">
-          <div className="card-body p-4">
-            <h3>14th April 2024</h3>
-            <p className="mb-0">Events/ Competitions
+        <div className="">
+          <div className=" p-4">
+            <h3 className="date-n">14th April 2024</h3>
+            <p className="mb-0 date-n">Events/ Competitions
 </p>
           </div>
         </div>
       </div>
       <div className="timeline left">
-        <div className="card">
-          <div className="card-body p-4">
-            <h3>14th April 2024</h3>
-            <p className="mb-0">Closing Ceremony</p>
+        <div className="">
+          <div className=" p-4">
+            <h3 className="date-n">14th April 2024</h3>
+            <p className="mb-0 date-n">Closing Ceremony</p>
           </div>
         </div>
       </div>
