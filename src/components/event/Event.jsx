@@ -88,7 +88,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href="https://forms.gle/Sq3BSPfNYxm54pNb7">
                                         Register
                                     </a>
                                 </button>
@@ -196,7 +196,7 @@ const Event = () => {
                                     </a>
                                 </button>
                                 <button className='n-event-btn'>
-                                    <a>
+                                    <a href="https://forms.gle/iH6nYQPReJgJZ61U6">
                                         Register
                                     </a>
                                 </button>
